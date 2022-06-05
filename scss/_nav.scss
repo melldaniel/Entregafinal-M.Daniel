@@ -1,59 +1,88 @@
+
+
+
+
 nav{
     margin: 10px 20px 10px 10px;
     list-style-type: none;
-    width: 95%;
+    width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: center;
+
  
 }
+
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;}
+
 
 
 .nav.navbar.navbar-expand-lg.navbar-light.bg-light{
 
-     color: rgb(14, 13, 13) !important;
-     background-color:rgb(100, 86, 100) !important;
+     color: rgb(247, 240, 240) !important;
+     background-color:rgb(100, 98, 100) !important;
      width: 170px;
      float: right;
-    
     }
+
+
+
 
     @media screen and (min-width:425px) {
 
 
         nav{
-            margin: 10px 10px 10px 10px;
+           
+            margin: 50px 25px 45px 10px;
             list-style-type: none;
             display: flex;
+            width: 60%;
             flex-direction: row;
             justify-content: flex-end;
-            color: rgb(14, 13, 13) !important;
-            background-color: rgb(184, 157, 184) !important;
+            color: rgb(230, 217, 217) !important;
+            background-color: rgb(230, 221, 230) !important;
+            
+           
         }
         
+          .navbar-nav {
+              display: flex;
+              padding-left: 0;
+              margin-bottom: 0;
+              list-style: none;
+          }
+
+
+        .nav.navbar.navbar-expand-lg.navbar-light{
     
-        nav.navbar.navbar-expand-lg.navbar-light.bg-light{
-    
-            color: rgb(14, 13, 13) !important;
-            background-color: rgb(230, 221, 230) !important;
-            width: 300px;
+            height: 532px;
+            width: 599px;
+            color: rgb(241, 234, 234) !important;
+            background-color: rgb(226, 221, 226) !important;
+            width: 170px;
             float: right;
-           
-            }
-
+            
+         }
+        
         }
-
 
     @media screen and (min-width:768px) {
 
 
         nav.navbar.navbar-expand-lg.navbar-light.bg-light{
     
-         
-            width: 700px;
-            color: rgb(14, 13, 13) !important;
-            background-color: rgb(214, 202, 214) !important;
+            margin: -18px 97px 45px 10px;
+            width: 690px;
+            color: rgb(233, 218, 218) !important;
+            background-color: rgb(247, 242, 247) !important;
             float: right;
 
             }
-        }
+
+      
+    }
+

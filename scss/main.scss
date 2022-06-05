@@ -1,4 +1,4 @@
-$color-principal: rgb(184, 157, 184);
+$color-principal: rgb(175, 142, 175);
 
 @import "_nav";
 @import "_footer";
@@ -18,7 +18,7 @@ header{
     border: solid;
     border-color: rgb(172, 161, 161);
     padding: 5px;
-    width: 1050px;
+    width: 1046px;
     height: 380px;
     padding: 8px; 
 }
@@ -29,7 +29,7 @@ header{
     background-image: url("../public/fondepantalla2.jpg");
     background-size:contain;
     background-repeat: repeat;
-    width: 1018px;
+    width: 1048px;
     height: 400px;
     border: solid;
     border-color: rgb(231, 225, 225);
@@ -60,7 +60,7 @@ header{
     width: 90%;
     display: grid;
     flex-direction: row;
-    height: 65%;
+    height: 68%;
     
     grid-template-columns:repeat(1,3fr);
     justify-items: center;
@@ -103,6 +103,7 @@ h2{
         font-size: 35px;
     }
 }
+
 
 
 h3{
@@ -153,7 +154,7 @@ font-size: 0%;
 span{
     color: rgb(41, 42, 63);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 
@@ -161,7 +162,7 @@ main{
     background-image:url("../public/fondepantalla2.jpg");
     background-size:contain;
     background-repeat: repeat;
-    width: 1040px;
+    width: 1047px;
     border: solid;
     border-color: rgb(124, 124, 124);
     border-radius: 5px;
@@ -169,10 +170,11 @@ main{
 
 .fonfamily{
     background-image:url("https://previews.123rf.com/images/yarruta/yarruta1903/yarruta190300231/119706105-familia-feliz-con-dos-ni%C3%B1os-jugando-en-casa-nueva-padre-madre-e-hijos-divirti%C3%A9ndose-juntos-d%C3%ADa-de-la.jpg");
-    background-size: 100% 90%;
+    background-size: 130% 100%;
     background-repeat: no-repeat;
-    width: 1000px;
+    width: 1035px;
     height: 1250px;
+   
     justify-content: flex-start;
     display: grid;
     grid-template-rows:repeat(2, 1fr);
@@ -213,7 +215,7 @@ li{
 
 a{
     color: rgb(109, 105, 105);
-   
+    font-size: 30px;
     transition: all 2s easy-in- out;
     
 }
@@ -324,7 +326,7 @@ section{
 
 
 
-/* saque footer */
+
 
 input{
     margin: 2px;
@@ -430,8 +432,10 @@ input{
         font-size: 20px;
     }
     
-    .iconos{
+    iconos{
         margin: 20px 20px 20px 20px;
+        width:65px;
+        height:65px;
        
     }
     
@@ -500,8 +504,6 @@ input{
             display: grid;
             width: 1050px;
             height: 100%;
-           
-         
         
         }
     
@@ -512,9 +514,11 @@ input{
             border: solid;
             border-color: rgb(105, 98, 98);
             padding: 5px;
-            width: 1040px;
+            width: 1046px;
             height: 380px;
             padding: 8px; 
+            
+            
         }
          
         
@@ -551,9 +555,8 @@ input{
         }
     
     
-    
-    
-    /* main */
+     
+  
     
         .fonfamily{
             display: grid;
@@ -571,7 +574,7 @@ input{
             height: 220px;
             margin: 20px;
             display: grid;
-            grid-template-columns: repeat(6, 2fr);
+            grid-template-columns: repeat(5, 2fr);
             justify-items: start;
             align-items: flex-start;
     
@@ -586,11 +589,18 @@ input{
     
         
         p{
-            font-size: 22px;
+            font-size: 24px;
             text-align: left;
         }
     
     
+        span {
+            color: rgb(41, 42, 63);
+            font-weight: bold;
+             font-size: 25px;
+}
+
+
         .emp{
             
               font-size: 30px;
@@ -643,13 +653,10 @@ input{
     
       
     
-    /* page nosotros */
-    
-    
     .itemdiv{
        display: grid;
        background-color:rgb(236, 243, 235); 
-       width: 1030px;
+       width: 1045px;
     
        grid-template-rows: auto 1fr auto;
        grid-template-columns: repeat(2 1fr);
@@ -667,12 +674,11 @@ input{
     .itemheader{
         grid-area: itemheader;
         background-color: $color-principal;
-        border: solid;
+        border: none;
         padding: 5px;
-        width: 1022px;
-        height: max-content;
-        
-    
+        width: 1045px;
+        height: 380px;
+
     }
             
     
@@ -681,7 +687,7 @@ input{
         width: 1025px ;
         height: auto;
         margin: 0px;
-        padding: 0px;
+        padding: 10px;
         border: none;
         border-color: rgb(109, 105, 105);
         display: grid;
@@ -694,7 +700,6 @@ input{
        
         margin: auto ;
     
-    
     }
     
     
@@ -705,12 +710,11 @@ input{
         width: 500px;
         border: none;
         padding: 0px;
-    
        
-    
-      
     }
     
+   
+
     .itemimg{
       
         grid-area: itemimg;
@@ -722,11 +726,7 @@ input{
         border: none;
         border-color: rgb(109, 105, 105);
         border-radius: 25px;
-    
-      
-    
-       
-      
+  
     }
     
     .oficina{ 
@@ -738,8 +738,7 @@ input{
         text-align: center;
         border-color: rgb(109, 105, 105);
         border-radius: 15px;
-       
-        
+     
     
     }
     
@@ -764,9 +763,6 @@ input{
 
 
   @media screen and (min-width:768px) {
-
-
-
 
 
 
@@ -818,7 +814,14 @@ article{
    
    }
 
-}
+
+   a {
+       color: rgb(109, 105, 105);
+       font-size: 20px;
+       transition: all 2s easy-in- out;
+   }
+
+
 
 
    img.comercial{
@@ -830,10 +833,9 @@ article{
     border-color: rgb(109, 105, 105);
     border-radius: 25px;
    
-    
-
 }
 
+  }
 
 
 

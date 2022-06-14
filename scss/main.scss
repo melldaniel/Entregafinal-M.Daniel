@@ -6,10 +6,7 @@ $color-principal: rgb(175, 142, 175);
 
 
 body{
-    width: 1050px;
-    height: 100%;
     background-color: rgb(233, 230, 232);
-
 }
 
 
@@ -18,8 +15,6 @@ header{
     border: solid;
     border-color: rgb(172, 161, 161);
     padding: 5px;
-    width: 1046px;
-    height: 380px;
     padding: 8px; 
 }
  
@@ -28,40 +23,25 @@ header{
 .home-header{
     background-image: url("../public/fondepantalla2.jpg");
     background-size:contain;
+    height: 465px;
     background-repeat: repeat;
-    width: 1048px;
-    height: 400px;
     border: solid;
     border-color: rgb(231, 225, 225);
     border-radius: 5px;
 }
 
 
-
-
-.contenedorprincipal{
-
-    background-color: rgb(236, 243, 235);
+.contenedorprincipal {
+    background-color: #ecf3eb;
     display: grid;
-    width: 1050px;
-    height: 100%;
-    grid-template-areas:
-                        "header header"
-                        "main main main aside" 
-                        "footer footer"
-                        ;
-
+    grid-template-areas: "header header""main main main aside""footer footer";
 }
-
 
 
 .encabe{
     border: none;
-    width: 90%;
     display: grid;
     flex-direction: row;
-    height: 68%;
-    
     grid-template-columns:repeat(1,3fr);
     justify-items: center;
     
@@ -154,7 +134,6 @@ font-size: 0%;
 span{
     color: rgb(41, 42, 63);
     font-weight: bold;
-    font-size: 35px;
 }
 
 
@@ -162,7 +141,6 @@ main{
     background-image:url("../public/fondepantalla2.jpg");
     background-size:contain;
     background-repeat: repeat;
-    width: 1047px;
     border: solid;
     border-color: rgb(124, 124, 124);
     border-radius: 5px;
@@ -172,9 +150,7 @@ main{
     background-image:url("https://previews.123rf.com/images/yarruta/yarruta1903/yarruta190300231/119706105-familia-feliz-con-dos-ni%C3%B1os-jugando-en-casa-nueva-padre-madre-e-hijos-divirti%C3%A9ndose-juntos-d%C3%ADa-de-la.jpg");
     background-size: 130% 100%;
     background-repeat: no-repeat;
-    width: 1035px;
     height: 1250px;
-   
     justify-content: flex-start;
     display: grid;
     grid-template-rows:repeat(2, 1fr);
@@ -238,8 +214,8 @@ img {
 
 
 .oficina{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     margin: 20px 55px 10px 70px;
     text-align: center;
     
@@ -251,7 +227,7 @@ img {
 
 
 .section-ofice{
-    width: 80%;
+
     text-align: end;
     padding: 10px;
     margin: 20px 15px 10px 5px;
@@ -273,7 +249,7 @@ iframe{
 
 article{
     padding: 10px;
-    width: 900px;
+    width: 90%;
     height: 900px;
     margin: 20px 15px 10px 30px;
     border: solid;
@@ -289,7 +265,6 @@ article{
 
 section{
     padding: 10px;
-    width: 600px;
     border: solid;
     border-color: rgb(84, 84, 85);
     border-radius: 20px;
@@ -314,13 +289,11 @@ section{
 
 .selection-pro{
     padding: 60px;
-    width: 1000px;
     border: none;
     border-radius: 15px;
     margin: 10 px;
     display: flex;
     flex-direction:column;
-    align-items: center;
    
 }
 
@@ -339,7 +312,6 @@ input{
     
     .nosotros{
         padding: 5px;
-        width: 900px;
     }
     
     
@@ -348,31 +320,20 @@ input{
     
     }
     
-    .contactenos{
-        border-color: rgb(109, 105, 105);
-        display: grid;
-        grid-row: 50px;
-        margin: 15px;
-        padding: 5px;
-        width: 800px;
-        border: solid;
-        border-radius: 15px;
-    }
+    
     
     
     table{
         background-color:  rgba(255, 251, 251, 0.856);
-        display: flexbox;
+        height: 95%;
+        width: 90%;
         padding: 5px;
-        width: 750px;
         margin: 16px;
-    }
+        }
     
-    
-    
+
     .busquedapagprop{
         padding: 10px;
-        width: 90%;
         height: 180px;
         margin: 20px;
         display: grid;
@@ -384,7 +345,7 @@ input{
 
     
     .pprop{
-     font-size: 18px;
+     font-size: 13px;
      display: grid;
      grid-template-columns: repeat(2, 2fr);
      justify-items: center;
@@ -395,7 +356,6 @@ input{
     
     select{
         text-indent: 15px;
-        width: 300px;
         height: 30px;
         font-size: 20px;
     }
@@ -403,7 +363,6 @@ input{
     
     input{
         text-indent: 15px;
-        width: 200px;
         height: 30px;
         font-size: 20px;
     }
@@ -414,7 +373,6 @@ input{
         background-image:url("../public/fondepantalla2.jpg");
         background-size:contain;
         background-repeat: repeat;
-        width: 1020px;
         height: auto;
         border: none;
         border-color: rgb(124, 124, 124);
@@ -424,13 +382,6 @@ input{
     }
      
     
-    th{
-        font-size: 26px;
-    }
-    
-    tr{
-        font-size: 20px;
-    }
     
     iconos{
         margin: 20px 20px 20px 20px;
@@ -444,7 +395,8 @@ input{
     }
     
     .destacadas{
-    
+        width: 80%;
+        height: 80%;
         padding: 10px;
         margin: 20px 15px 10px 5px;
         border-color: rgb(109, 105, 105);
@@ -454,6 +406,7 @@ input{
         
     }
     
+
     
     .destacadas:hover{
 
@@ -502,7 +455,6 @@ input{
     
             background-color: rgb(236, 243, 235);
             display: grid;
-            width: 1050px;
             height: 100%;
         
         }
@@ -514,8 +466,6 @@ input{
             border: solid;
             border-color: rgb(105, 98, 98);
             padding: 5px;
-            width: 1046px;
-            height: 380px;
             padding: 8px; 
             
             
@@ -527,8 +477,7 @@ input{
             background-image:url("../public/fondepantalla2.jpg");
             background-size:contain;
             background-repeat: repeat;
-            width: 100%;
-            height: 400px;
+            height: 465px;
             border: solid;
             border-color: rgb(231, 225, 225);
             border-radius: 5px;
@@ -544,7 +493,6 @@ input{
             display: grid;
             height: 65%;
             align-content: left;
-            grid-template-columns:repeat(2,1fr);
     
         }
 
@@ -582,7 +530,7 @@ input{
     
         select{
             text-indent: 7px;
-            width: 100px;
+            width: 50px;
             height: 30px;
             font-size: 15px;
         }
@@ -597,7 +545,7 @@ input{
         span {
             color: rgb(41, 42, 63);
             font-weight: bold;
-             font-size: 25px;
+             font-size: 15px;
 }
 
 
@@ -630,7 +578,6 @@ input{
             
         article{
             padding: 10px;
-            width: auto;
              height: auto;
              margin: 5px 15px 10px 30px;
             border: solid;
@@ -656,10 +603,7 @@ input{
     .itemdiv{
        display: grid;
        background-color:rgb(236, 243, 235); 
-       width: 1045px;
-    
        grid-template-rows: auto 1fr auto;
-       grid-template-columns: repeat(2 1fr);
     
     
        grid-template-areas: "itemheader  itemheader"   
@@ -676,28 +620,16 @@ input{
         background-color: $color-principal;
         border: none;
         padding: 5px;
-        width: 1045px;
         height: 380px;
 
     }
             
     
-    .contactenos{
-        background-color: none;
-        width: 1025px ;
-        height: auto;
-        margin: 0px;
-        padding: 10px;
-        border: none;
-        border-color: rgb(109, 105, 105);
-        display: grid;
-        grid-row: 50px;
+ 
     
-      
-    }
     
     table{
-       
+        width: 90%;
         margin: auto ;
     
     }
@@ -707,7 +639,6 @@ input{
     .itemparra{
         background-image:none;
         grid-area: itemparra;
-        width: 500px;
         border: none;
         padding: 0px;
        
@@ -719,7 +650,6 @@ input{
       
         grid-area: itemimg;
         align-items:center;
-        width: 80%;
         text-align: end;
         padding: 10px;
         margin: 0px;
@@ -730,8 +660,6 @@ input{
     }
     
     .oficina{ 
-        width: 450px;
-        height: 250px;
         padding: 10px;
         margin: 20px 15px 10px 5px;
         border: solid;
@@ -750,15 +678,7 @@ input{
     
     }   
     
-    .nosotros{
     
-        width: 460px;
-        height: 600px;
-        font-size: 25px;
-        
-    }
-    
-
   }
 
 
@@ -769,13 +689,12 @@ input{
 article{
     display: grid;
     background-color:rgb(236, 243, 235); 
-    width: 980px;
+    width: 90%;
     height: 1000px;
     margin: none;
     grid-template-rows: 20% 70% 5%;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 40% 60%;
     grid-column-gap: 10px;
-    justify-items: start;
     grid-row-gap: 20px;
     grid-template-areas: "desart desart"   
                           "emp  comercial" 
@@ -825,7 +744,7 @@ article{
 
 
    img.comercial{
-    width: 400px;
+    width: 350px;
     height: 500px;
     padding: 10px;
     margin: 20px 15px 10px 5px;
@@ -834,6 +753,18 @@ article{
     border-radius: 25px;
    
 }
+
+  .busquedapagprop {
+      padding: 10px;
+      width: 90%;
+      height: 180px;
+      margin: 20px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      justify-items: center;
+      align-items: flex-start;
+  }
+
 
   }
 
